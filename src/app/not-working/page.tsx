@@ -4,6 +4,8 @@ import { CalendarIcon } from "@chakra-ui/icons";
 import { Button, Container, Stack } from "@chakra-ui/react";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 export default function Page() {
   return (
     <Container py="10">
